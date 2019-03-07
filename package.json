@@ -1,0 +1,32 @@
+{
+  "name": "pray.js",
+  "version": "1.0.1",
+  "description": "pray.js - mini react",
+  "main": "dist/pray.js",
+  "scripts": {
+    "build": "rollup -c config/rollup.config.js",
+    "test": "jest",
+    "co": "jest --coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zjhch123/pray.git"
+  },
+  "keywords": [
+    "bundle"
+  ],
+  "author": "zjhch123<416836508@qq.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zjhch123/pray/issues"
+  },
+  "homepage": "https://github.com/zjhch123/pray",
+  "devDependencies": {
+    "jest": "^23.6.0",
+    "rollup": "^0.68.2",
+    "rollup-plugin-alias": "^1.5.1",
+    "rollup-plugin-babel": "^3.0.7",
+    "rollup-plugin-eslint": "^5.0.0",
+    "rollup-plugin-uglify": "^6.0.1"
+  }
+}

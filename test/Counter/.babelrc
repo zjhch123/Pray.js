@@ -1,0 +1,14 @@
+{
+  "presets": ["env", "stage-2"],
+  "plugins": [
+    "add-module-exports",
+    [
+      "transform-runtime", 
+      {
+        "moduleName": "babel-runtime"
+      }
+    ],
+    "transform-react-jsx",
+    "transform-class-properties"
+  ]
+}

@@ -1,0 +1,7 @@
+.DS_Store
+node_modules
+.status
+coverage
+test/*/node_modules
+test/*/.cache
+test/*/dist

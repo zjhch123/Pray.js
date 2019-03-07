@@ -1,0 +1,20 @@
+.c-counter {
+  color: red;
+  margin-bottom: 8px;
+}
+
+.c-counter span {
+  display: inline-block;
+  width: 80px;
+}
+.c-counter button {
+  width: 100px;
+  height: 33px;
+  line-height: 31px;
+  border: 1px solid red;
+  background: white;
+  color: red;
+  border-radius: 0;
+  box-shadow: none;
+  font-size: 22px;
+}
