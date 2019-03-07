@@ -5,5 +5,5 @@ module.exports = {
   coverageDirectory: './coverage/',
   testPathIgnorePatterns: ['<rootDir>/node_modules/'],
   coveragePathIgnorePatterns: ['<rootDir>/node_modules/'],
-  testRegex: '(/test/.*|(\\.|/)(test|spec))\\.jsx?$',
+  testRegex: '(/test/unit/.*|(\\.|/)(test|spec))\\.jsx?$',
 };
