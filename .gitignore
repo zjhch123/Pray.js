@@ -5,3 +5,4 @@ coverage
 test/*/node_modules
 test/*/.cache
 test/*/dist
+package-lock.json
